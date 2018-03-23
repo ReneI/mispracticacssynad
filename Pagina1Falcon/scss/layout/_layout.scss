@@ -1,0 +1,47 @@
+
+.main-container {
+  width        : 100%;
+  max-width    : $max-width;
+  margin-left  : auto;
+  margin-right : auto;
+  padding-left : 1em;
+  padding-right : 1em;
+  overflow:hide;
+}
+
+.main-header{
+  display:flex;
+  flex-wrap   : wrap;
+  align-items: center;
+  &-1{
+
+    width: 100%;
+    @media screen and (min-width: 600px)  {
+  width:30%;
+
+}
+  }
+  &-2{
+      width: 70%;
+      display:flex;
+      height:auto;
+      align-items: center;
+      justify-content: flex-end;
+
+@media screen and (max-width: 700px)  {
+   display:none;
+   color:red;
+}
+@media screen and (min-width: 500px) and (max-width: 700px) {
+       width:40;
+}
+
+}
+.donar{
+
+@media screen and (max-width: 750px)  {
+   display:none;
+}
+
+}
+}

@@ -1,0 +1,19 @@
+.main-header{
+  display:flex;
+  padding: $gutter*2 0 $gutter;
+  border-bottom: -11px 7px 25px 0px rgba(0,0,0,0.16);
+  padding-left:0;
+  padding-right:0;
+}
+
+.logo{
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+  width: 40%;
+  background: #red;
+
+@media screen and (min-width: 600px)  {
+  width:20%;
+}
+}

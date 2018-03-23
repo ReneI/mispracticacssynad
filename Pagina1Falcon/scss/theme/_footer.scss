@@ -1,0 +1,29 @@
+.foo{
+
+    background: hsl(71, 80, 70);
+}
+.main-footer{
+
+   
+    width: 100%;
+    margin-top: 0;
+    color: hotpink;
+    padding: 1em;
+    h1{
+        text-align: center;
+
+    }
+    @media screen and(min-width:800px) {
+         display: flex;
+         p:first-child{
+
+            margin-right: auto;
+           
+         }
+        p:last-child{
+            border-left: 1px solid ;
+            margin-left: 1em;
+            padding-left: 1em;
+        } 
+    }
+}

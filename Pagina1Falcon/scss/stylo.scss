@@ -1,0 +1,23 @@
+
+$max-width:100%;
+
+$font1:16px;
+$font2:$font1*1.5;
+$font3:$font1*0.5;
+
+$primary:hsl(200, 60, 77);
+$secundary:hsl(230, 100, 73);
+
+$gutter:16px;
+$max-width:1200px;
+@import "base/norma";
+@import "layout/layout";
+@import "theme/header";
+@import "modules/modulo";
+@import "base/body";
+@import "theme/menu";
+@import "theme/banner";
+@import "theme/feactures";
+@import "theme/galery";
+@import "theme/data";
+@import "theme/footer";

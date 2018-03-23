@@ -1,0 +1,17 @@
+.main-menu {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .main-menu__item {
+    display: block; }
+  .main-menu__link {
+    display: block;
+    color: #bfd98c;
+    line-height: 2; }
